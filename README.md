@@ -31,15 +31,13 @@ CoroutineScope(Dispatchers.Main).launch {
 allprojects {
     repositories {
         .......
-        maven {
-            url  "https://dl.bintray.com/liul1/maven"
-        }
+      	maven { url 'https://www.jitpack.io' }
         ......
 }
 ````
 在需要使用moudel的build.gradle文件中加入：
 ````
-implementation 'com.github.lilei:coroutine-permissions:1.0.0'
+implementation 'com.github.iamlfc:CoroutinePermissions:1.0.2'
 ````
 
 需要看源码的朋友移步：[https://github.com/liulilei/CoroutinePermissions](https://github.com/liulilei/CoroutinePermissions)
