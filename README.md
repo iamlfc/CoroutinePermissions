@@ -32,7 +32,8 @@ allprojects {
     repositories {
         .......
         maven {
-            url  "https://dl.bintray.com/liul1/maven"
+url 'https://www.jitpack.io'
+
         }
         ......
 }
